@@ -1,0 +1,11 @@
+#5031a4 - navbar
+
+#653eb3 - section titles
+
+#fafafa - body
+
+#fb4381 - buttons
+
+#3e3e3e - text main
+
+#8c8c8c - text secondary
