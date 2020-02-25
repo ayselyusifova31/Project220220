@@ -173,20 +173,21 @@ body{
 {
     display: flex;
     justify-content: center;
-    width: 30%;  
-    
+    width: 30%;     
 }
 .sec1-button button
 {
-    font-size: 16px;
-    font-family: Roboto;
-    font-weight: 400;
     background-color: #fb4381;
-    color:#ffffff;
     border-radius: 3px;
     box-shadow: none;
     padding: 10px;
     border: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: center; 
 }
 .sec2{    
     background-color: #fafafa;
@@ -201,8 +202,7 @@ body{
     width: 80%;
     display: flex;
     flex-direction: column;  
-    align-items: center;
-    
+    align-items: center;   
     
 }
 .sec2-elements{
@@ -237,4 +237,308 @@ body{
     margin: 0px 20px;
     line-height: 1.5;
     font-family: Roboto;
+}
+.sec3{    
+    background-color: #653eb3;
+    height: 150px;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    
+}
+.sec3-container
+{
+    width: 80%;
+    display: flex;    
+    align-items:center;   
+   
+}
+
+.sec3-text
+{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    color:#f5f2fa;
+    font-size: 34px;
+    font-family: Roboto;
+    font-weight: 400;
+    margin-right: 300px;
+    text-align: center;
+}
+.sec3-button
+{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.sec3-button button
+{
+    background-color: #fb4381;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 10px;
+    border: none;
+    text-transform: capitalize;
+}
+.sec4{    
+    background-color: #fafafa;
+    height: 150vh;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around; 
+    flex-direction: row; 
+}
+.sec4-container
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;   
+    
+}
+.sec4-text{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 400;
+    color:#3e3e3e;
+    margin: 6% 730px 3% 0px;
+    text-transform: capitalize;
+    text-align: left;
+}
+.sec4-elements-top,
+.sec4-elements-bottom
+{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sec4-element
+{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column; 
+    box-shadow:0 0 1px gray;
+    width: 27%;
+    background-color: #ffffff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 35%;
+}
+.sec4-element:last-child
+{
+    
+    margin-right: 0;
+}
+.sec4-element p
+{
+    color: #ababab;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.destination
+{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 250px;
+}
+.price{
+    font-size: 18px;
+    line-height: 12px;
+    color: #653eb3;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-left: 10px;
+}
+.title{
+    width: 262px;
+    height: 27px;
+    font-size: 22px;
+    line-height: 12px;
+    color: #3e3e3e;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-align: left;
+    margin-left: -15px;
+}
+.sec4-button
+{
+    display: flex;
+    /* justify-content: center;       */
+    background-color: #fb4381;
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    height: 10%;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: center; 
+    margin:10px 150px 20px 0px;
+}
+.sec5{    
+    background-color: #ffffff;
+    height: 150px;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    
+}
+.sec5-container
+{
+    width: 80%;
+    display: flex;    
+    align-items:center;
+    justify-content: space-around;       
+}
+.sec5-text
+{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color:#3e3e3e;
+    font-size: 34px;
+    font-family: Roboto;
+    font-weight: 400;
+    /* margin-right: 300px; */
+    text-align: left;
+}
+.sec5-button
+{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: #d4d4d4;
+
+   
+}
+.email
+{
+    font-size: 18px;
+    border-bottom: 1px solid #d4d4d4;
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    width: 200px;
+}
+.sec5-button button
+{
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fb4381;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px gray;
+    padding: 10px;
+    border: none;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.sec6{    
+    background-color: #fafafa;
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: row; 
+}
+.sec6-container
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;   
+    
+}
+.sec6-elements{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.sec6-text{
+    
+    width: 80%;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    font-family: Roboto;
+    
+}
+.sec4-elements-top,
+.sec4-elements-bottom
+{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sec6-text h1{
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-weight: 400;
+   text-align: left;
+   margin-left: -100px;
+}
+.sec6-element-img{
+    margin-bottom: 10px;
+    height: 75px;
+    width:75px;
+    border-radius: 40px;
+    margin-left: 20px;
+
+}
+/* .sec6-element-imagebox
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+} */
+.sec6-element{
+    text-align: left;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    flex-direction: row;
+    margin: 20px 10px;
+    line-height: 1.5;
+    font-family: Roboto;
+    background-color: #fff;
+    box-shadow:0 0 1px gray;
+}
+.sec6-element-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    text-align: left;
+    color: #ababab;
+}
+.sec6-element-text span{
+    
+    border-top: 1px solid  #ababab;;
+    width: 100%;
 }
